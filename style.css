@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto',
+    sans-serif;
+    margin: 50px;
+    background-color:#E1EAF8;
+    
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    align-content: center;
+}
+button {
+    font-family: 'Roboto',
+    sans-serif;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    background-color: #5333ed;
+    color: #fff;
+    padding: 15px;
+    border-style: none;
+}
+
+img{
+    width: 100px;
+}
+
+ul{ 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    align-content: center;
+    justify-content: space-around;
+}
